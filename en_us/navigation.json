@@ -1,0 +1,52 @@
+{
+    "navigation":
+    [
+        {
+            "text": "Home",
+            "target": "index.md",
+            "toc": false
+        },
+        {
+            "text": "Get Started",
+            "target": "get_started.md"
+        },
+        {
+            "text": "Downloads",
+            "target": "downloads.md",
+            "toc": false
+        },
+        {
+            "text": "Markdown",
+            "target": "markdown.md"
+        },
+        {
+            "text": "Documentation",
+            "target": "docs/vx.json",
+            "navi": true,
+            "navi_index": "Users/Welcome.md",
+            "navi_expand_level": 1
+        },
+        {
+            "text": "Examples",
+            "target": "examples.md"
+        },
+        {
+            "text": "Language",
+            "children":
+            [
+                {
+                    "text": "中文 Chinese",
+                    "target": "../zh_cn/"
+                }
+            ]
+        }
+    ],
+    "actions":
+    [
+        {
+            "text": "GitHub",
+            "icon": "css/github.svg",
+            "target": "https://github.com/vnotex/viki"
+        }
+    ]
+}

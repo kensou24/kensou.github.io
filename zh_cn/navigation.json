@@ -1,0 +1,52 @@
+{
+    "navigation":
+    [
+        {
+            "text": "首页",
+            "target": "index.md",
+            "toc": false
+        },
+        {
+            "text": "简单开始",
+            "target": "get_started.md"
+        },
+        {
+            "text": "下载",
+            "target": "downloads.md",
+            "toc": false
+        },
+        {
+            "text": "Markdown",
+            "target": "markdown.md"
+        },
+        {
+            "text": "文档",
+            "target": "docs/vx.json",
+            "navi": true,
+            "navi_index": "用户/欢迎使用.md",
+            "navi_expand_level": 1
+        },
+        {
+            "text": "例子",
+            "target": "examples.md"
+        },
+        {
+            "text": "语言",
+            "children":
+            [
+                {
+                    "text": "English",
+                    "target": "../en_us/"
+                }
+            ]
+        }
+    ],
+    "actions":
+    [
+        {
+            "text": "GitHub",
+            "icon": "css/github.svg",
+            "target": "https://github.com/vnotex/viki"
+        }
+    ]
+}
